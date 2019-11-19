@@ -1,0 +1,7 @@
+[dbservers]
+control.lab.example.com
+servera.lab.example.com
+
+[webservers]
+serverb.lab.example.com
+
