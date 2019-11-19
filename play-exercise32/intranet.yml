@@ -1,0 +1,48 @@
+---
+- name: Instalar y configurar servicios
+  hosts: intranet
+  become: true
+  become_method: sudo
+  tasks:
+
+    - name: Instalar paquetes
+      yum:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - httpd
+        - firewalld
+
+    - name: Iniciar y Hablitar firewalld
+      service:
+        name: firewalld
+        state: started
+        enabled: true
+
+    - name: Abrir el servicio httpd
+      firewalld:
+        service: http
+        permanent: true
+        immediate: yes
+        state: enabled
+
+    - name: Iniciar y Habilitar httpd
+      service:
+        name: httpd
+        state: started
+        enabled: true
+
+    - name: Crear página de prueba
+      copy:
+        content: "<H1>Esta es una pagina de prueba</H1>"
+        dest: /var/www/html/index.html
+
+- name: Pruebas al servidor web
+  hosts: localhost
+  become: false
+  tasks:
+
+   - name: Test Webserver
+     uri:
+       url: http://servera.lab.example.com
+       status_code: 200
