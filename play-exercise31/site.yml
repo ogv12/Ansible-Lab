@@ -1,0 +1,21 @@
+---
+- name: Instalar y configurar Apache HTTPD
+  hosts: webservers
+  tasks: 
+
+    - name: Instalar HTTPD
+      yum:
+        name: httpd
+        state: present
+
+    - name: Copiar index.html
+      copy:
+        src: files/index.html
+        dest: /var/www/html/index.html
+
+    - name: Iniciar y Habilitar httpd
+      service:
+        name: httpd
+        state: started
+        enabled: true
+      
