@@ -1,0 +1,53 @@
+---
+- name: Play1
+  hosts: webservers
+  become: true
+  tasks:
+
+    - name: Revisar paquetes
+      yum:
+        name:
+          - firewalld
+          - httpd
+          - php
+          - php-mysql
+          - mariadb-server
+        state: latest
+
+    - name: Revisar firewalld
+      service:
+        name: firewalld
+        enabled: true
+        state: started
+
+    - name: Revisar configuracion firewalld
+      firewalld:
+        port: 80/tcp
+        permanent: true
+        state: enabled
+        immediate: true
+        zone: public
+
+    - name: Revisar httpd
+      service:
+        name: httpd
+        enabled: true
+        state: started
+
+    - name: Revisar mariadb
+      service: 
+        name: mariadb
+        enabled: true
+        state: started
+
+
+- name: task2
+  hosts: localhost
+  become: true
+  tasks:
+
+    - name: Contenido URL
+      get_url:
+        url: https://raw.githubusercontent.com/jsjhr/materials/master/index.php
+        dest: /var/www/html/index.php
+
