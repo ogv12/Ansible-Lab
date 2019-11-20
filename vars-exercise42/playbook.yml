@@ -1,0 +1,52 @@
+---
+- name: Instalar y configurar Apache HTTPD
+  hosts: webserver
+  vars:
+    web_pkg: httpd
+    firewall_pkg: firewalld
+    web_service: httpd
+    firewall_service: firewalld
+    python_pkg: python-httplib2
+    rule: http
+
+  tasks:
+
+    - name: Instalar rpms
+      yum:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - "{{ web_pkg}}"
+        - "{{ firewall_pkg }}"
+
+    - name: Iniciar y habilitar servicios
+      service:
+        name: "{{ item }}"
+        state: started
+        enabled: yes
+      loop:
+        - "{{ firewall_service }}"
+        - "{{ web_service }}"
+
+    - name: Crear index html
+      copy:
+        dest: /var/www/html/index.html
+        content: "<h1>Test web server<h1>"
+        
+  
+    - name: Abir puertos en firewalld
+      firewalld:
+        service: "{{ rule }}"
+        permanent: true
+        immediate: true
+        state: present
+
+- name: Play para testing
+  hosts: localhost
+  tasks:
+
+    - name: Test port 80
+      uri:
+        url: "http://servera.lab.example.com"
+        status_code: 200
+
