@@ -1,0 +1,548 @@
+Oct 17 13:29:19 centos7 passwd: pam_unix(passwd:chauthtok): password changed for root
+Oct 17 13:29:19 centos7 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -P now
+Oct 17 13:29:19 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:30:36 centos7 polkitd[673]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 18 17:30:36 centos7 polkitd[673]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 18 17:30:36 centos7 polkitd[673]: <no filename>:0: can't open /etc/polkit-1/rules.d/49-vagrant.rules: No such file or directory
+Nov 18 17:30:36 centos7 polkitd[673]: Error compiling script /etc/polkit-1/rules.d/49-vagrant.rules
+Nov 18 17:30:36 centos7 polkitd[673]: Finished loading, compiling and executing 2 rules
+Nov 18 17:30:36 centos7 polkitd[673]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 18 17:31:00 centos7 sshd[1105]: Server listening on 0.0.0.0 port 22.
+Nov 18 17:31:00 centos7 sshd[1105]: Server listening on :: port 22.
+Nov 18 17:31:02 centos7 sshd[1201]: Accepted publickey for vagrant from 192.168.121.1 port 49578 ssh2: RSA SHA256:1M4RzhMyWuFS/86uPY/ce2prh/dVTHW7iD2RhpquOZA
+Nov 18 17:31:03 centos7 sshd[1201]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 18 17:31:06 centos7 sshd[1201]: pam_unix(sshd:session): session closed for user vagrant
+Nov 18 17:31:07 centos7 sshd[1997]: Accepted publickey for vagrant from 192.168.121.1 port 49584 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 18 17:31:07 centos7 sshd[1997]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 18 17:31:08 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:08 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:08 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:08 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:09 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:09 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:10 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:10 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:15 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:15 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:15 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:31:15 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:31:15 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:31:15 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:40 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:41 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:41 centos7 sshd[3404]: Accepted publickey for vagrant from 192.168.121.1 port 49644 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 18 17:34:41 centos7 sshd[3404]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 18 17:34:41 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/rsync --server -vlDtprze.iLsfxC --delete . /tmp
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:41 centos7 sshd[3407]: Received disconnect from 192.168.121.1 port 49644:11: disconnected by user
+Nov 18 17:34:41 centos7 sshd[3407]: Disconnected from 192.168.121.1 port 49644
+Nov 18 17:34:41 centos7 sshd[3404]: pam_unix(sshd:session): session closed for user vagrant
+Nov 18 17:34:41 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:41 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:42 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:34:42 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:42 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:42 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:34:42 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:42 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/sbin/useradd -m -d /home/devops -s /bin/bash devops
+Nov 18 17:34:42 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:42 centos7 useradd[3598]: new group: name=devops, GID=1001
+Nov 18 17:34:42 centos7 useradd[3598]: new user: name=devops, UID=1001, GID=1001, home=/home/devops, shell=/bin/bash
+Nov 18 17:34:46 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:46 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/sbin/chpasswd
+Nov 18 17:34:46 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:46 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:46 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/sbin/useradd -m -d /home/ansible -s /bin/bash ansible
+Nov 18 17:34:46 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:46 centos7 useradd[3613]: new group: name=ansible, GID=1002
+Nov 18 17:34:46 centos7 useradd[3613]: new user: name=ansible, UID=1002, GID=1002, home=/home/ansible, shell=/bin/bash
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:48 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/sbin/chpasswd
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:48 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/sed -i s/PasswordAuthentication no/PasswordAuthentication yes/ /etc/ssh/sshd_config
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:48 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/systemctl restart sshd
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:48 centos7 sshd[1105]: Received signal 15; terminating.
+Nov 18 17:34:48 centos7 sshd[3633]: Server listening on 0.0.0.0 port 22.
+Nov 18 17:34:48 centos7 sshd[3633]: Server listening on :: port 22.
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:48 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/yum clean all
+Nov 18 17:34:48 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:49 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:49 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/cp -v /tmp/perfilado /etc/sudoers.d/
+Nov 18 17:34:49 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 18 17:34:49 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:49 centos7 sudo: pam_unix(sudo:session): session closed for user root
+Nov 18 17:34:49 centos7 sshd[1997]: pam_unix(sshd:session): session closed for user vagrant
+Nov 18 17:35:44 centos7 sshd[3644]: Accepted publickey for vagrant from 192.168.121.1 port 49668 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 18 17:35:44 centos7 sshd[3644]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 18 17:35:45 centos7 sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 18 17:35:45 centos7 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 19 16:47:43 servera polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 19 16:47:43 servera polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 19 16:47:43 servera polkitd[665]: <no filename>:0: can't open /etc/polkit-1/rules.d/49-vagrant.rules: No such file or directory
+Nov 19 16:47:43 servera polkitd[665]: Error compiling script /etc/polkit-1/rules.d/49-vagrant.rules
+Nov 19 16:47:43 servera polkitd[665]: Finished loading, compiling and executing 2 rules
+Nov 19 16:47:43 servera polkitd[665]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 19 16:47:56 servera sshd[1140]: Server listening on 0.0.0.0 port 22.
+Nov 19 16:47:56 servera sshd[1140]: Server listening on :: port 22.
+Nov 19 16:47:57 servera sshd[1154]: Accepted publickey for vagrant from 192.168.121.1 port 58036 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 19 16:47:58 servera sshd[1154]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 19 16:48:02 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 19 16:48:02 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 19 16:48:02 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 16:48:03 servera sshd[1990]: Accepted publickey for vagrant from 192.168.121.1 port 58046 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 19 16:48:03 servera sshd[1990]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 19 16:48:03 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/rsync --server -vlDtprze.iLsfxC --delete . /tmp
+Nov 19 16:48:03 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 19 16:48:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 16:48:03 servera sshd[1993]: Received disconnect from 192.168.121.1 port 58046:11: disconnected by user
+Nov 19 16:48:03 servera sshd[1993]: Disconnected from 192.168.121.1 port 58046
+Nov 19 16:48:03 servera sshd[1990]: pam_unix(sshd:session): session closed for user vagrant
+Nov 19 16:48:04 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 19 16:48:04 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 19 16:48:04 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 16:48:04 servera sshd[1154]: pam_unix(sshd:session): session closed for user vagrant
+Nov 19 18:51:25 servera sshd[24697]: Connection closed by 10.0.0.10 port 44846 [preauth]
+Nov 19 18:51:25 servera sshd[24699]: Connection closed by 10.0.0.10 port 44848 [preauth]
+Nov 19 18:51:33 servera sshd[24701]: Accepted password for ansible from 10.0.0.10 port 44850 ssh2
+Nov 19 18:51:33 servera sshd[24701]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 19 18:51:33 servera sshd[24705]: Received disconnect from 10.0.0.10 port 44850:11: disconnected by user
+Nov 19 18:51:33 servera sshd[24705]: Disconnected from 10.0.0.10 port 44850
+Nov 19 18:51:33 servera sshd[24701]: pam_unix(sshd:session): session closed for user ansible
+Nov 19 18:53:00 servera sshd[24717]: Accepted publickey for ansible from 10.0.0.10 port 44870 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 18:53:00 servera sshd[24717]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 19 18:53:00 servera sshd[24720]: Received disconnect from 10.0.0.10 port 44870:11: disconnected by user
+Nov 19 18:53:00 servera sshd[24720]: Disconnected from 10.0.0.10 port 44870
+Nov 19 18:53:00 servera sshd[24717]: pam_unix(sshd:session): session closed for user ansible
+Nov 19 18:54:06 servera sshd[24730]: Accepted publickey for ansible from 10.0.0.10 port 44878 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 18:54:06 servera sshd[24730]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 19 18:54:34 servera sudo: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/cat /etc/sudoers.d/perfilado
+Nov 19 18:54:34 servera sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov 19 18:54:34 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 18:55:05 servera sshd[24733]: Received disconnect from 10.0.0.10 port 44878:11: disconnected by user
+Nov 19 18:55:05 servera sshd[24733]: Disconnected from 10.0.0.10 port 44878
+Nov 19 18:55:05 servera sshd[24730]: pam_unix(sshd:session): session closed for user ansible
+Nov 19 18:58:50 servera sshd[24762]: Connection closed by 10.0.0.10 port 44882 [preauth]
+Nov 19 18:59:08 servera sshd[24764]: Connection closed by 10.0.0.10 port 44884 [preauth]
+Nov 19 19:00:13 servera sshd[24773]: Connection closed by 10.0.0.10 port 44894 [preauth]
+Nov 19 19:00:22 servera sshd[24776]: Accepted publickey for ansible from 10.0.0.10 port 44898 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 19:00:22 servera sshd[24776]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 19 19:01:27 servera sshd[24779]: Received disconnect from 10.0.0.10 port 44898:11: disconnected by user
+Nov 19 19:01:27 servera sshd[24779]: Disconnected from 10.0.0.10 port 44898
+Nov 19 19:01:27 servera sshd[24776]: pam_unix(sshd:session): session closed for user ansible
+Nov 19 19:10:49 servera sshd[24971]: Accepted password for devops from 10.0.0.10 port 44906 ssh2
+Nov 19 19:10:49 servera sshd[24971]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 19:10:50 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zzmrhcyxvpqmmnwstoinveupuoghemcw ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574190648.86-262588548702975/AnsiballZ_stat.py
+Nov 19 19:10:50 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 19:10:50 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 19:10:50 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rsljsnahhqwhfmakgrkaelozegdhylrm ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574190648.86-262588548702975/AnsiballZ_copy.py
+Nov 19 19:10:50 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 19:10:50 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 19:11:44 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oegtrqkiiaesmztyjrqmyzyqlqgumspe ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574190704.12-25450937490691/AnsiballZ_stat.py
+Nov 19 19:11:44 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 19:11:44 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 19:11:45 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-enqujwremqzmfkujumaxohsiwmkxcjor ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574190704.12-25450937490691/AnsiballZ_file.py
+Nov 19 19:11:45 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 19:11:45 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 19:13:59 servera sshd[24975]: Received disconnect from 10.0.0.10 port 44906:11: disconnected by user
+Nov 19 19:13:59 servera sshd[24975]: Disconnected from 10.0.0.10 port 44906
+Nov 19 19:13:59 servera sshd[24971]: pam_unix(sshd:session): session closed for user devops
+Nov 19 20:30:38 servera sshd[25570]: Accepted password for devops from 10.0.0.10 port 44912 ssh2
+Nov 19 20:30:38 servera sshd[25570]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 20:30:39 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dswromtdfcthregiegalrgdgmgjomcid ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195438.56-163763448828002/AnsiballZ_command.py
+Nov 19 20:30:39 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:30:39 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:31:27 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ldqjjybpjwekqhshaktnnpyoluvyeelo ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195487.4-81197670486618/AnsiballZ_command.py
+Nov 19 20:31:27 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:31:28 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:32:28 servera sshd[25574]: Received disconnect from 10.0.0.10 port 44912:11: disconnected by user
+Nov 19 20:32:28 servera sshd[25574]: Disconnected from 10.0.0.10 port 44912
+Nov 19 20:32:28 servera sshd[25570]: pam_unix(sshd:session): session closed for user devops
+Nov 19 20:33:00 servera sshd[25741]: Connection closed by 10.0.0.10 port 44916 [preauth]
+Nov 19 20:33:00 servera sshd[25743]: Connection closed by 10.0.0.10 port 44918 [preauth]
+Nov 19 20:33:02 servera sshd[25745]: Accepted password for devops from 10.0.0.10 port 44920 ssh2
+Nov 19 20:33:02 servera sshd[25745]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 20:33:02 servera sshd[25749]: Received disconnect from 10.0.0.10 port 44920:11: disconnected by user
+Nov 19 20:33:02 servera sshd[25749]: Disconnected from 10.0.0.10 port 44920
+Nov 19 20:33:02 servera sshd[25745]: pam_unix(sshd:session): session closed for user devops
+Nov 19 20:33:14 servera sshd[25761]: Accepted publickey for devops from 10.0.0.10 port 44942 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 20:33:14 servera sshd[25761]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 20:33:14 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xgjappkzxqnrgdolojmwjqxqpooxzycm ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195593.93-168962083287765/AnsiballZ_command.py
+Nov 19 20:33:14 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:33:14 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:33:21 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jacflrneombqlutnjganibeoqdgtndfk ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195600.47-125160202505494/AnsiballZ_command.py
+Nov 19 20:33:21 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:33:21 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:33:28 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mtvrpcabgxuofatkrzrqqummxyobltqm ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195607.6-43317850798665/AnsiballZ_command.py
+Nov 19 20:33:28 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:33:28 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:33:59 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-twhgerzwwzadcfqdoawnbscpdyitofnk ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195638.99-182080304985104/AnsiballZ_command.py
+Nov 19 20:33:59 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:33:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:34:09 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-slwprjmclrjxxubijchcndrvrbfstyra ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195649.19-55952354871097/AnsiballZ_command.py
+Nov 19 20:34:09 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:34:10 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:34:54 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ydhyywhygngyapbunohmpfrhehevnaev ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195693.13-50544026200443/AnsiballZ_command.py
+Nov 19 20:34:54 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:34:54 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:35:20 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nhnhekscugyukmrhaytigfqsmxoykrzq ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574195719.52-221190880183189/AnsiballZ_command.py
+Nov 19 20:35:20 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 20:35:20 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:35:38 servera sshd[26340]: Accepted publickey for ansible from 10.0.0.10 port 44964 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 20:35:38 servera sshd[26340]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 19 20:35:39 servera sudo: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ieguinqhnakknzjwfeuaamibdsmygwaf ; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1574195738.02-39780831129036/AnsiballZ_command.py
+Nov 19 20:35:39 servera sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov 19 20:35:39 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 20:36:20 servera sshd[25764]: Received disconnect from 10.0.0.10 port 44942:11: disconnected by user
+Nov 19 20:36:20 servera sshd[25764]: Disconnected from 10.0.0.10 port 44942
+Nov 19 20:36:20 servera sshd[25761]: pam_unix(sshd:session): session closed for user devops
+Nov 19 20:37:23 servera sshd[26343]: Received disconnect from 10.0.0.10 port 44964:11: disconnected by user
+Nov 19 20:37:23 servera sshd[26343]: Disconnected from 10.0.0.10 port 44964
+Nov 19 20:37:23 servera sshd[26340]: pam_unix(sshd:session): session closed for user ansible
+Nov 19 22:13:27 servera sshd[26730]: Accepted publickey for devops from 10.0.0.10 port 44988 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 22:13:27 servera sshd[26730]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 22:13:28 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bnvdkfleagvvlxdyumhrkifmangxygnl ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201607.59-239300506328334/AnsiballZ_setup.py
+Nov 19 22:13:28 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:29 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:30 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txdcwrqzfhrfjpuhxakkodstopcmpgzj ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201609.6-40542421809949/AnsiballZ_yum.py
+Nov 19 22:13:30 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:56 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:57 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ffvdmbusmzadzfaciaetjqekzvrqovuq ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201636.83-110166706933985/AnsiballZ_yum.py
+Nov 19 22:13:57 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:57 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:57 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-miadszvqihuwzmtpsmepqcyuqomwjkqv ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201637.37-216658851715173/AnsiballZ_systemd.py
+Nov 19 22:13:57 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:58 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:58 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kwtnnclobkwqfmrbbaodnfzgcsmktpfo ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201638.22-147698951448521/AnsiballZ_firewalld.py
+Nov 19 22:13:58 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:59 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sldzzkrqizxyywylvxkjvmqojchyzatd ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201639.14-220116614851213/AnsiballZ_systemd.py
+Nov 19 22:13:59 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:13:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:13:59 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-glewursneiizvjbkckxjrawlxwmrvjqy ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201639.55-89356112473618/AnsiballZ_stat.py
+Nov 19 22:13:59 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:00 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:33 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjwpgoziwvwurpfhcycuepvldswexukb ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201672.68-85709731678363/AnsiballZ_setup.py
+Nov 19 22:14:33 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:33 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:34 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ldeiwarfritjipqcikgsjpultzhktnym ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201674.01-31641943819152/AnsiballZ_yum.py
+Nov 19 22:14:34 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:52 servera groupadd[27540]: group added to /etc/group: name=apache, GID=48
+Nov 19 22:14:52 servera groupadd[27540]: group added to /etc/gshadow: name=apache
+Nov 19 22:14:52 servera groupadd[27540]: new group: name=apache, GID=48
+Nov 19 22:14:52 servera useradd[27544]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin
+Nov 19 22:14:55 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:55 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eohfxkzoibcqbwfdkbvovbprphrmbvdw ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201695.45-244322301553161/AnsiballZ_yum.py
+Nov 19 22:14:55 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:55 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:56 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ynmubhgfkrfdaqrutaookttyxcyktqgz ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201696.0-225622777465265/AnsiballZ_systemd.py
+Nov 19 22:14:56 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:56 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:57 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkxkobmkohojocdihbsdlwfmjguptfga ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201696.83-117284074494490/AnsiballZ_firewalld.py
+Nov 19 22:14:57 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:57 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:57 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qdpozaehmgkasznpunifkykxnxszjdga ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201697.81-163624458316545/AnsiballZ_systemd.py
+Nov 19 22:14:57 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:58 servera polkitd[665]: Registered Authentication Agent for unix-process:27829:1964833 (system bus name :1.177 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 19 22:14:58 servera polkitd[665]: Unregistered Authentication Agent for unix-process:27829:1964833 (system bus name :1.177, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 19 22:14:58 servera polkitd[665]: Registered Authentication Agent for unix-process:27847:1964842 (system bus name :1.178 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 19 22:14:58 servera polkitd[665]: Unregistered Authentication Agent for unix-process:27847:1964842 (system bus name :1.178, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 19 22:14:58 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:58 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bmjzpdvjctrkhscddlkctcaauesknpup ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201698.4-207942604906482/AnsiballZ_stat.py
+Nov 19 22:14:58 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:58 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:14:59 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wuctymyeozkwdxoccfmjgsanmatysgds ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201698.4-207942604906482/AnsiballZ_copy.py
+Nov 19 22:14:59 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:14:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:15:59 servera sshd[26733]: Received disconnect from 10.0.0.10 port 44988:11: disconnected by user
+Nov 19 22:15:59 servera sshd[26733]: Disconnected from 10.0.0.10 port 44988
+Nov 19 22:15:59 servera sshd[26730]: pam_unix(sshd:session): session closed for user devops
+Nov 19 22:18:30 servera sshd[27986]: Accepted publickey for devops from 10.0.0.10 port 45050 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 22:18:30 servera sshd[27986]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 22:18:41 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-koayijfrswvvsheljaajqrnpjpgrwoyf ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201920.26-238831013103157/AnsiballZ_setup.py
+Nov 19 22:18:41 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:18:41 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:18:41 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fqgzvdtxgzhhqbairhcwrobdcwzqisys ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201920.26-238831013103157/AnsiballZ_yum.py
+Nov 19 22:18:41 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:18:45 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:18:54 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mrsptnryposgsundakmietkqkzhmcdvx ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201933.61-264883645608367/AnsiballZ_setup.py
+Nov 19 22:18:54 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:18:54 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:18:55 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ihqjbljaodtosrkftokmhcjzwvffifqd ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574201933.61-264883645608367/AnsiballZ_yum.py
+Nov 19 22:18:55 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:18:57 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:19:57 servera sshd[27989]: Received disconnect from 10.0.0.10 port 45050:11: disconnected by user
+Nov 19 22:19:57 servera sshd[27989]: Disconnected from 10.0.0.10 port 45050
+Nov 19 22:19:57 servera sshd[27986]: pam_unix(sshd:session): session closed for user devops
+Nov 19 22:20:09 servera sshd[28435]: Accepted publickey for devops from 10.0.0.10 port 45052 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 19 22:20:09 servera sshd[28435]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 19 22:20:10 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ionthzkgpmdoflabemkboiyadjuxfbqr ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574202009.6-272631998465083/AnsiballZ_file.py
+Nov 19 22:20:10 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 19 22:20:10 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 19 22:21:10 servera sshd[28438]: Received disconnect from 10.0.0.10 port 45052:11: disconnected by user
+Nov 19 22:21:10 servera sshd[28438]: Disconnected from 10.0.0.10 port 45052
+Nov 19 22:21:10 servera sshd[28435]: pam_unix(sshd:session): session closed for user devops
+Nov 20 00:06:54 servera sshd[28780]: Accepted publickey for vagrant from 192.168.121.1 port 58296 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 20 00:06:54 servera sshd[28780]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 20 00:06:55 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 20 00:06:55 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 20 00:06:55 servera sshd[1140]: Received signal 15; terminating.
+Nov 20 00:06:55 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 00:06:55 servera sshd[28780]: pam_unix(sshd:session): session closed for user vagrant
+Nov 20 15:18:09 servera polkitd[664]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 20 15:18:09 servera polkitd[664]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 20 15:18:09 servera polkitd[664]: <no filename>:0: can't open /etc/polkit-1/rules.d/49-vagrant.rules: No such file or directory
+Nov 20 15:18:09 servera polkitd[664]: Error compiling script /etc/polkit-1/rules.d/49-vagrant.rules
+Nov 20 15:18:09 servera polkitd[664]: Finished loading, compiling and executing 2 rules
+Nov 20 15:18:09 servera polkitd[664]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 20 15:18:17 servera sshd[1024]: Server listening on 0.0.0.0 port 22.
+Nov 20 15:18:17 servera sshd[1024]: Server listening on :: port 22.
+Nov 20 15:18:18 servera sshd[1037]: Accepted publickey for vagrant from 192.168.121.1 port 46094 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 20 15:18:18 servera sshd[1037]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 20 15:18:23 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 20 15:18:23 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 20 15:18:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 15:18:24 servera sshd[1873]: Accepted publickey for vagrant from 192.168.121.1 port 46194 ssh2: RSA SHA256:M+usbOUGv02o7rENS04BuGNhdFDF8A1k7W83da6f0WA
+Nov 20 15:18:24 servera sshd[1873]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 20 15:18:25 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/rsync --server -vlDtprze.iLsfxC --delete . /tmp
+Nov 20 15:18:25 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 20 15:18:25 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 15:18:25 servera sshd[1876]: Received disconnect from 192.168.121.1 port 46194:11: disconnected by user
+Nov 20 15:18:25 servera sshd[1876]: Disconnected from 192.168.121.1 port 46194
+Nov 20 15:18:25 servera sshd[1873]: pam_unix(sshd:session): session closed for user vagrant
+Nov 20 15:18:25 servera sudo: vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 20 15:18:25 servera sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 20 15:18:25 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 15:18:27 servera sshd[1037]: pam_unix(sshd:session): session closed for user vagrant
+Nov 20 16:40:16 servera sshd[2162]: Accepted publickey for ansible from 10.0.0.10 port 58928 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 16:40:16 servera sshd[2162]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 20 16:43:07 servera sshd[2165]: Received disconnect from 10.0.0.10 port 58928:11: disconnected by user
+Nov 20 16:43:07 servera sshd[2165]: Disconnected from 10.0.0.10 port 58928
+Nov 20 16:43:07 servera sshd[2162]: pam_unix(sshd:session): session closed for user ansible
+Nov 20 16:44:18 servera sshd[2585]: Accepted publickey for ansible from 10.0.0.10 port 58930 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 16:44:18 servera sshd[2585]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 20 16:45:41 servera sshd[2588]: Received disconnect from 10.0.0.10 port 58930:11: disconnected by user
+Nov 20 16:45:41 servera sshd[2588]: Disconnected from 10.0.0.10 port 58930
+Nov 20 16:45:41 servera sshd[2585]: pam_unix(sshd:session): session closed for user ansible
+Nov 20 16:46:33 servera sshd[2824]: Accepted publickey for ansible from 10.0.0.10 port 58932 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 16:46:33 servera sshd[2824]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Nov 20 16:46:34 servera sudo: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ogimiejvlzrkllslfgkitezzjbyuxwze ; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1574268393.44-77615220667535/AnsiballZ_setup.py
+Nov 20 16:46:34 servera sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov 20 16:46:34 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 16:46:35 servera sudo: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ztbuxdnojkcpsxdjlrtpymeqtdzeelfe ; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1574268395.28-4406222016961/AnsiballZ_yum.py
+Nov 20 16:46:35 servera sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov 20 16:56:49 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 16:56:50 servera sudo: ansible : TTY=pts/0 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkwpgesyjtjmtrkhiwibszschfczmdlr ; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1574269010.29-176087015749718/AnsiballZ_yum.py
+Nov 20 16:56:50 servera sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Nov 20 16:56:57 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 16:57:57 servera sshd[2827]: Received disconnect from 10.0.0.10 port 58932:11: disconnected by user
+Nov 20 16:57:57 servera sshd[2827]: Disconnected from 10.0.0.10 port 58932
+Nov 20 16:57:57 servera sshd[2824]: pam_unix(sshd:session): session closed for user ansible
+Nov 20 23:04:35 servera sshd[4001]: Accepted publickey for devops from 10.0.0.10 port 59212 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:04:35 servera sshd[4001]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:04:36 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yxipiiudubxadhvmowhvskqeuvzaivbj ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291075.16-186606891123234/AnsiballZ_setup.py
+Nov 20 23:04:36 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:04:37 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:04:38 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txzneenqnvxdtkxurpksmhuolsmfmkul ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291078.0-257203692225430/AnsiballZ_systemd.py
+Nov 20 23:04:38 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:04:39 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:05:22 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wwfcvhrommnfplrpfiavgvokkihvboxh ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291121.49-140801575556337/AnsiballZ_setup.py
+Nov 20 23:05:22 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:05:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:05:24 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hlonriuyhkamukpllmqsxtsrhqnnqqud ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291123.74-37619684695319/AnsiballZ_systemd.py
+Nov 20 23:05:24 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:05:24 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:06:24 servera sshd[4004]: Received disconnect from 10.0.0.10 port 59212:11: disconnected by user
+Nov 20 23:06:24 servera sshd[4004]: Disconnected from 10.0.0.10 port 59212
+Nov 20 23:06:24 servera sshd[4001]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:08:01 servera sshd[4369]: Accepted publickey for devops from 10.0.0.10 port 59218 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:08:01 servera sshd[4369]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:08:03 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pkwqdxftpiocobbrkdhuqlcryiimdvkq ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291281.51-35946684763293/AnsiballZ_setup.py
+Nov 20 23:08:03 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:08:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:08:05 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kwnszrriixqfxlecfwzwnqbqwvldbzso ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291284.58-231660322170341/AnsiballZ_yum.py
+Nov 20 23:08:05 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:08:05 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:09:05 servera sshd[4372]: Received disconnect from 10.0.0.10 port 59218:11: disconnected by user
+Nov 20 23:09:05 servera sshd[4372]: Disconnected from 10.0.0.10 port 59218
+Nov 20 23:09:05 servera sshd[4369]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:09:59 servera sshd[4552]: Accepted publickey for devops from 10.0.0.10 port 59224 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:10:00 servera sshd[4552]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:10:01 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ddufxcdfwamkvxwjzhviehibmrgwpwiu ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291399.62-114236713444652/AnsiballZ_setup.py
+Nov 20 23:10:01 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:10:01 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:10:03 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hvtnmpyfdiyvkgqomtfrewydpwuyjyxr ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291402.82-79135176647946/AnsiballZ_yum.py
+Nov 20 23:10:03 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:10:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:11:03 servera sshd[4555]: Received disconnect from 10.0.0.10 port 59224:11: disconnected by user
+Nov 20 23:11:03 servera sshd[4555]: Disconnected from 10.0.0.10 port 59224
+Nov 20 23:11:03 servera sshd[4552]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:13:40 servera sshd[4743]: Accepted publickey for devops from 10.0.0.10 port 59230 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:13:40 servera sshd[4743]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:13:41 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-azufzjiqiklgqotzevadthgdaohbegjt ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291619.95-38528412480098/AnsiballZ_setup.py
+Nov 20 23:13:41 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:13:42 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:13:43 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bdlfogzxworiotqbgbjyoispimwyhrqe ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291623.01-3160763095053/AnsiballZ_yum.py
+Nov 20 23:13:43 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:14:12 servera useradd[4988]: failed adding user 'apache', exit code: 9
+Nov 20 23:14:16 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:14:37 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lppmpmvmvufpmhcuqczmhfrlmehbvzsx ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291676.04-67601870469483/AnsiballZ_setup.py
+Nov 20 23:14:37 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:14:37 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:14:39 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ycgbfxtchrqfxlunynnyplsahnvukdse ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291678.61-715749293434/AnsiballZ_yum.py
+Nov 20 23:14:39 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:14:39 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:15:39 servera sshd[4746]: Received disconnect from 10.0.0.10 port 59230:11: disconnected by user
+Nov 20 23:15:39 servera sshd[4746]: Disconnected from 10.0.0.10 port 59230
+Nov 20 23:15:39 servera sshd[4743]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:15:43 servera sshd[5186]: Accepted publickey for devops from 10.0.0.10 port 59236 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:15:43 servera sshd[5186]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:15:44 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lxhmsjherpbibrwwduvdzhixggxxbwpn ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291743.42-137010365801875/AnsiballZ_setup.py
+Nov 20 23:15:44 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:15:45 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:15:47 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kfbmvfklylnazuxwgfkbamjkiltbuoii ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291746.55-156766045218620/AnsiballZ_yum.py
+Nov 20 23:15:47 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:15:47 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:16:24 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gektyuvkjyiqikopkjtlkyhfxerfhmnc ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291784.05-110962144595824/AnsiballZ_setup.py
+Nov 20 23:16:24 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:16:25 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:16:27 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lkwdrcavuvufesxtqrnohqdjknkcqjqg ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291787.22-192431291512914/AnsiballZ_yum.py
+Nov 20 23:16:27 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:16:27 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:16:58 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nqnemcdnihvctqusixnjewhmrgbrjmou ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291818.22-78538492806601/AnsiballZ_setup.py
+Nov 20 23:16:58 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:16:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:17:02 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eelgtazlsvaavnqiywabfsnyqscihwho ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291821.48-130926945306931/AnsiballZ_systemd.py
+Nov 20 23:17:02 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:17:02 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:17:04 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cztvvbtumurbuqzrwyrbrqjhlvpxfact ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291823.61-169773481153883/AnsiballZ_yum.py
+Nov 20 23:17:04 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:17:06 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:18:06 servera sshd[5189]: Received disconnect from 10.0.0.10 port 59236:11: disconnected by user
+Nov 20 23:18:06 servera sshd[5189]: Disconnected from 10.0.0.10 port 59236
+Nov 20 23:18:06 servera sshd[5186]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:18:22 servera sshd[5835]: Accepted publickey for devops from 10.0.0.10 port 59242 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:18:22 servera sshd[5835]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:18:22 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-asqpsnavciqxztgjnjsurclffbemwqbg ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291901.92-122395513247370/AnsiballZ_setup.py
+Nov 20 23:18:22 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:18:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:18:26 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jeiircjmzvuzrkfsvmbtyjwydsnmqaam ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291906.31-76300900448050/AnsiballZ_yum.py
+Nov 20 23:18:26 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:18:34 servera useradd[6072]: failed adding user 'apache', exit code: 9
+Nov 20 23:18:36 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:18:58 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-khmvkldsdvnxwqbkdacktwnrnfyauwog ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291937.71-149411448559505/AnsiballZ_systemd.py
+Nov 20 23:18:58 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:18:58 servera polkitd[664]: Registered Authentication Agent for unix-process:6157:2886687 (system bus name :1.209 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:18:58 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6157:2886687 (system bus name :1.209, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:18:58 servera polkitd[664]: Registered Authentication Agent for unix-process:6175:2886701 (system bus name :1.210 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:18:58 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6175:2886701 (system bus name :1.210, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:18:58 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:19:56 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vcgfqmhtpxuluhicstukxcwljtezqtvk ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291995.33-77952122153678/AnsiballZ_setup.py
+Nov 20 23:19:56 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:19:57 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:19:58 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yhcieinataaqrhajiahgmlpjbqxtxsmd ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574291997.56-107465533250114/AnsiballZ_systemd.py
+Nov 20 23:19:58 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:19:58 servera polkitd[664]: Registered Authentication Agent for unix-process:6369:2892704 (system bus name :1.213 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:19:58 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6369:2892704 (system bus name :1.213, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:19:58 servera polkitd[664]: Registered Authentication Agent for unix-process:6387:2892718 (system bus name :1.214 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:19:59 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6387:2892718 (system bus name :1.214, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:19:59 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:20:01 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rqpyinsiffpvkkqstbkikxytocbbkour ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292000.72-75121187887529/AnsiballZ_yum.py
+Nov 20 23:20:01 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:20:05 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:21:05 servera sshd[5838]: Received disconnect from 10.0.0.10 port 59242:11: disconnected by user
+Nov 20 23:21:05 servera sshd[5838]: Disconnected from 10.0.0.10 port 59242
+Nov 20 23:21:05 servera sshd[5835]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:22:09 servera sshd[6499]: Accepted publickey for devops from 10.0.0.10 port 59248 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:22:10 servera sshd[6499]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:22:10 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kuhnpgvuchnjppxlxvizqukfuyxzejhw ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292129.85-259991713474738/AnsiballZ_setup.py
+Nov 20 23:22:10 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:22:11 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:22:12 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gfiwasynwrfuisytemvqvijxosbsewiw ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292131.77-57021443590109/AnsiballZ_yum.py
+Nov 20 23:22:12 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:22:21 servera useradd[6736]: failed adding user 'apache', exit code: 9
+Nov 20 23:22:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:22:24 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mhoqqglerbaijybxvlortghneptebfhp ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292143.64-186725764162324/AnsiballZ_systemd.py
+Nov 20 23:22:24 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:22:24 servera polkitd[664]: Registered Authentication Agent for unix-process:6821:2907281 (system bus name :1.223 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:22:24 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6821:2907281 (system bus name :1.223, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:22:24 servera polkitd[664]: Registered Authentication Agent for unix-process:6839:2907289 (system bus name :1.224 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:22:24 servera polkitd[664]: Unregistered Authentication Agent for unix-process:6839:2907289 (system bus name :1.224, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:22:24 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:23:24 servera sshd[6502]: Received disconnect from 10.0.0.10 port 59248:11: disconnected by user
+Nov 20 23:23:24 servera sshd[6502]: Disconnected from 10.0.0.10 port 59248
+Nov 20 23:23:24 servera sshd[6499]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:24:14 servera sshd[6863]: Accepted publickey for devops from 10.0.0.10 port 59254 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:24:14 servera sshd[6863]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:24:15 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-itfcensblqbwhpjnauhtrkvdufghiosc ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292253.91-139213080471481/AnsiballZ_setup.py
+Nov 20 23:24:15 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:24:16 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:24:17 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-excbblkwzzboukqhnmoedccvwjnxtugx ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292256.63-159884769799571/AnsiballZ_systemd.py
+Nov 20 23:24:17 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:24:17 servera polkitd[664]: Registered Authentication Agent for unix-process:7039:2918608 (system bus name :1.229 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:24:17 servera polkitd[664]: Unregistered Authentication Agent for unix-process:7039:2918608 (system bus name :1.229, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:24:17 servera polkitd[664]: Registered Authentication Agent for unix-process:7057:2918622 (system bus name :1.230 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 20 23:24:18 servera polkitd[664]: Unregistered Authentication Agent for unix-process:7057:2918622 (system bus name :1.230, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 20 23:24:18 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:24:20 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hcnuhowfykfqsldaywgmcqkzdxamxnum ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574292259.79-138809332079967/AnsiballZ_yum.py
+Nov 20 23:24:20 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:24:24 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:25:24 servera sshd[6866]: Received disconnect from 10.0.0.10 port 59254:11: disconnected by user
+Nov 20 23:25:24 servera sshd[6866]: Disconnected from 10.0.0.10 port 59254
+Nov 20 23:25:24 servera sshd[6863]: pam_unix(sshd:session): session closed for user devops
+Nov 20 23:49:12 servera sshd[7202]: Connection closed by 10.0.0.10 port 59262 [preauth]
+Nov 20 23:49:20 servera sshd[7204]: Connection closed by 10.0.0.10 port 59266 [preauth]
+Nov 20 23:51:03 servera sshd[7214]: Accepted publickey for devops from 10.0.0.10 port 59270 ssh2: RSA SHA256:ntckirMEgIpaUs4KzCUmUBoG5w7Bk4jCAdwOPmv2ess
+Nov 20 23:51:04 servera sshd[7214]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 20 23:51:05 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tbjjfysbvkijediciloocsvohfslrunr ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574293863.77-180161916186635/AnsiballZ_setup.py
+Nov 20 23:51:05 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Nov 20 23:51:05 servera sudo: pam_unix(sudo:session): session closed for user root
+Nov 20 23:51:06 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lqmgmbefuxguoanlwvlwlpjhnowtjvva ; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1574293865.79-185566749925244/AnsiballZ_slurp.py
+Nov 20 23:51:06 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)

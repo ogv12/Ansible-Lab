@@ -1,0 +1,12 @@
+---
+- name: Use the fecth module to retrieve secure logs files
+  hosts: all
+  remote_user: devops
+  tasks:
+
+    - name: Fetch the /varlog/secure log file from managed hosts
+      fetch:
+        src: /var/log/secure
+        dest: secure-backups
+        flat: no
+
