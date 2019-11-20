@@ -1,0 +1,14 @@
+---
+- name: Iniciar Apache e iniciar el servicio
+  hosts: webserver
+  tasks:
+    - name: instalar el paquete
+      yum:
+        name: "{{ ansible_facts.ansible_local.custom.general.package }}"
+        state: latest
+
+    - name: Iniciar el servicio
+      service:
+        name: "{{ ansible_facts.ansible_local.custom.general.service }}"
+        state: "{{ ansible_facts.ansible_local.custom.general.state }}"
+
