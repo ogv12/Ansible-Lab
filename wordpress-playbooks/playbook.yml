@@ -1,0 +1,14 @@
+---
+
+- name: Setup WordPress
+  hosts: wordpress
+  gather_facts: False
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
+  vars:
+    wp_mysql_db: wp
+    wp_mysql_user: user
+    wp_mysql_password: pass

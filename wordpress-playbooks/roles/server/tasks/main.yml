@@ -1,0 +1,19 @@
+---
+# tasks file for server
+
+- name: Install required software
+  yum:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - httpd
+    - php-mysql
+    - php
+    - php-gd
+    - mariadb
+    - mariadb-server
+    - php-common
+    - php-xml
+    - php-mbstring
+    - php-mcrypt
+    - MySQL-python
